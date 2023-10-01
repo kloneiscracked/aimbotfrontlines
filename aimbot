@@ -1,28 +1,3 @@
---[[
-    
-
-    I decided to make it open source for all the new scripters out there (including me), don't ripoff or claim this as your own.
-    When I get time I will comment a lot of the stuff here.
-
-    -- Mod notes:
-    This now includes custom character patch which fixes teamcolors.
-    ESP items now use TeamColor instead of team.
-    Adjusted some default settings
-
-   -- Game mods:
-   No Sway
-   No Cam Shake
-   No Recoil
-   No Spread
-
-
-]]
-
--- Character Patch (Stefanuk12 | Modded by HamstaGang) [Fixes teams/teamcolor/ect]
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Frontlines/CharacterPatch.lua", true))()
-
-
--- Extremly bad code starts below here
 
 local DEBUG_MODE = false -- warnings, prints and profiles dont change idiot thanks
 
@@ -212,7 +187,7 @@ do
 end
 
 do
-	--/ Utility : To make it easier for me to edit
+
 
 	local getPlayers = players.GetPlayers
 	local getPartsObscuringTarget = camera.GetPartsObscuringTarget
